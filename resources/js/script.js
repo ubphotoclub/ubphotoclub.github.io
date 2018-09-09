@@ -80,4 +80,24 @@ $(document).ready(function() {
     });
 
     
+    /* Your Club */
+    var quotes = new Array();
+
+    quotes[0] = "UB Car Club";
+    quotes[1] = "Cycling Club";
+    quotes[2] = "Gardening Club";
+    quotes[3] = "FASA";
+    quotes[4] = "HBO";
+    console.log(quotes);
+    var counter = 0;
+
+    function loop() {
+        if (counter > 4) counter = 0;
+        document.getElementById('textslide').firstElementChild.innerHTML = quotes[counter];
+        counter++;
+        console.log(counter);
+        setTimeout(loop, 1000);
+    }
+    loop();
+    
 });
