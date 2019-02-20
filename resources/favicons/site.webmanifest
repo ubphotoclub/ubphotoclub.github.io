@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "UBPC",
+    "short_name": "UBPC",
     "icons": [
         {
             "src": "/resources/favicons/android-chrome-192x192.png",
@@ -8,12 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "/resources/favicons/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "/resources/favicons/android-chrome-256x256.png",
+            "sizes": "256x256",
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#005bbb",
+    "background_color": "#005bbb",
     "display": "standalone"
 }
